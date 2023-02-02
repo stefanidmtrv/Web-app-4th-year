@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/consumption', function () {
     return view('consumption');
 });
+
+Route::get('/emission', function () {
+    return view('emissions');
+});
