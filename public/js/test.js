@@ -2236,6 +2236,8 @@ let labels = jsonfile.jsonarray.map(function (e) {
     return e.dates;
 });
 let results = labels.map(date => new Date(date))
+
+// console.log(results3);
 results.sort(function (a, b) {
     return a - b
 });

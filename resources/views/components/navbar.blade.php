@@ -16,7 +16,7 @@
             <a href="consumption" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 Energy consumption
             </a>
-            <a href="emission" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            <a href="emissions" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 Carbon emissions
             </a>
         </div>
