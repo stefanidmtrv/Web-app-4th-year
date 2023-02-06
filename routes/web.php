@@ -23,8 +23,8 @@ Route::get('/consumption', function () {
 Route::get('/emissions', function () {
     return view('emissions');
 });
-Route::get('/test', function () {
-    return view('test');
+Route::get('/altair', function () {
+    return view('altair');
 });
 
 Route::middleware('auth')->group(function () {
