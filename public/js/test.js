@@ -1,5 +1,3 @@
-// import Chart from 'chart.js/auto';
-
 var jsonfile = {
     "jsonarray": [{
         "dates": "2023-01-23T00:00:00",
@@ -2234,9 +2232,6 @@ var jsonfile = {
     }, {"dates": "2022-07-07T00:00:00", "power": 18.082574842, "consumption": 158.4, "ticker": "trx"}]
 };
 
-
-const ctx = document.getElementById('myChart');
-
 let labels = jsonfile.jsonarray.map(function (e) {
     return e.dates;
 });
@@ -2244,19 +2239,10 @@ let results = labels.map(date => new Date(date))
 results.sort(function (a, b) {
     return a - b
 });
-// let labels2 = [...new Set(labels)];
 
 let ada = jsonfile.jsonarray.filter((e => e.ticker == "ada"));
 let ada_cons = ada.map(function (e) {
     return e.consumption;
-});
-// alert(ada_cons.length);
-let ada_dates = ada.map(function (e) {
-    return e.dates;
-});
-let results_ada = ada_dates.map(date => new Date(date))
-results_ada.sort(function (a, b) {
-    return a - b
 });
 
 let algo = jsonfile.jsonarray.filter((e => e.ticker == "algo"));
@@ -2286,10 +2272,11 @@ let matic_cons = matic.map(function (e) {
 let matic_dates = matic.map(function (e) {
     return e.dates;
 });
-// let results_matic = matic_dates.map(date => new Date(date))
+
 matic_dates.sort(function (a, b) {
     return b - a
 });
+
 
 let sol = jsonfile.jsonarray.filter((e => e.ticker == "sol"));
 let sol_cons = sol.map(function (e) {
@@ -2305,71 +2292,72 @@ let xtz = jsonfile.jsonarray.filter((e => e.ticker == "xtz"));
 let xtz_cons = xtz.map(function (e) {
     return e.consumption;
 });
-// alert(results_matic.length)
-new Chart(ctx, {
+
+const myData = {
+    labels: matic_dates,
+    datasets: [
+        {
+            label: 'Ada',
+            data: ada_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Algo',
+            data: algo_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Avax',
+            data: avax_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+
+        {
+            label: 'Dot',
+            data: dot_cons,
+            pointRadius: 1,
+            borderWidth: 1
+        },
+        {
+            label: 'Eth2',
+            data: eth2_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Matic',
+            data: matic_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Sol',
+            data: sol_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Trx',
+            data: trx_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+        {
+            label: 'Xtz',
+            data: xtz_cons,
+            pointRadius: 0,
+            borderWidth: 1
+        },
+
+    ]
+};
+
+const config = {
     type: 'line',
-    data: {
-        // labels: results,
-        labels: matic_dates,
-        datasets: [
-            {
-                label: 'Ada',
-                data: ada_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Algo',
-                data: algo_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Avax',
-                data: avax_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-
-            {
-                label: 'Dot',
-                data: dot_cons,
-                pointRadius: 1,
-                borderWidth: 1
-            },
-            {
-                label: 'Eth2',
-                data: eth2_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Matic',
-                data: matic_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Sol',
-                data: sol_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Trx',
-                data: trx_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-            {
-                label: 'Xtz',
-                data: xtz_cons,
-                pointRadius: 0,
-                borderWidth: 1
-            },
-
-        ]
-    },
+    data: myData,
     options: {
         responsive: true,
         interaction: {
@@ -2392,6 +2380,12 @@ new Chart(ctx, {
             },
         },
 
-    },
+    }
+};
 
-});
+new Chart(
+    document.getElementById('myChart').getContext("2d"),
+    config
+);
+
+
