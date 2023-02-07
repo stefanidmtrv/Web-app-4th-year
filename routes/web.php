@@ -20,15 +20,11 @@ Route::get('/', function () {
 Route::get('/consumption', function () {
     return view('consumption');
 });
-Route::get('/emissions', function () {
-    return view('emissions');
+Route::get('/emission', function () {
+    return view('emission');
 });
 Route::get('/altair', function () {
     return view('altair');
-});
-
-Route::get('/price-chart', function () {
-    return view('price_chart');
 });
 
 //Route::middleware('auth')->group(function () {

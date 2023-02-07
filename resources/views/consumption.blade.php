@@ -14,7 +14,7 @@
                     <div style="width: 700px;">
                         <canvas id="myChart2"></canvas>
                     </div>
-                    <script src="js/test2.js"></script>
+                    <script src="js/PoW_consumption.js"></script>
 
                 </div>
                 <div class='grid-child-element purple'>
@@ -22,7 +22,7 @@
                     <div style="width: 700px;">
                         <canvas id="myChart"></canvas>
                     </div>
-                    <script src="js/test.js"></script>
+                    <script src="js/PoS_consumption.js"></script>
 
                 </div>
 

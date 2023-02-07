@@ -7,9 +7,9 @@
         {{-- <script src="{{ asset('js/app.js') }}" ></script> --}}
         <link href="/css/app.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ url('/css/style.css') }}" />
-{{--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>--}}
-{{--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>--}}
-{{--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>--}}
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">

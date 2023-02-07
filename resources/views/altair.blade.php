@@ -11,13 +11,13 @@
                 <div class='grid-child-element purple'>
                 <div>PoW consumption</div>
                  <div id="vis"></div>
-                 <script src="js/PoW_consumption.js"></script>
+                 <script src="js/PoW_consumption_altair.js"></script>
 
                 </div>
                 <div class='grid-child-element green'>
                     <div>PoS consumption</div>
                     <div id="vis2"></div>
-                    <script src="js/PoS_emission.js"></script>
+                    <script src="js/PoS_consumption_altair.js"></script>
                 </div>
 
             </div>
