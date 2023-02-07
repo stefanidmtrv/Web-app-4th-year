@@ -5004,19 +5004,19 @@ new Chart(ctx, {
         labels: bsv_dates,
         datasets: [
             {
-                label: 'Bch',
+                label: 'Bitcoin Cash',
                 data: bch_cons,
                 pointRadius: 0,
                 borderWidth: 1
             },
             {
-                label: 'Bsv',
+                label: 'Bitcoin SV',
                 data: bsv_cons,
                 pointRadius: 0,
                 borderWidth: 1
             },
             {
-                label: 'Btc',
+                label: 'Bitcoin',
                 data: btc_cons,
                 pointRadius: 0,
                 borderWidth: 1
@@ -5029,25 +5029,25 @@ new Chart(ctx, {
                 borderWidth: 1
             },
             {
-                label: 'Doge',
+                label: 'Dogecoin',
                 data: doge_cons,
                 pointRadius: 0,
                 borderWidth: 1
             },
             {
-                label: 'Eth',
+                label: 'Ethereum',
                 data: eth_cons,
                 pointRadius: 0,
                 borderWidth: 1
             },
             {
-                label: 'Ltc',
+                label: 'Litecoin',
                 data: ltc_cons,
                 pointRadius: 0,
                 borderWidth: 1
             },
             {
-                label: 'Zec',
+                label: 'ZCash',
                 data: zec_cons,
                 pointRadius: 0,
                 borderWidth: 1
@@ -5062,6 +5062,19 @@ new Chart(ctx, {
         },
         stacked: false,
         plugins: {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: {
+                    font: {
+                        size: 12
+                    },
+                    usePointStyle: true,
+                    // fontColor: "#000080",
+                    pointStyle: 'rect',
+                    // color: 'rgb(255, 99, 132)'
+                }
+            },
             title: {
                 display: true,
                 text: 'Proof of Work carbon emissions in tons (T)'

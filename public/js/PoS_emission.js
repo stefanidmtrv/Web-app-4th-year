@@ -66,56 +66,56 @@ const myData = {
     labels: matic_dates,
     datasets: [
         {
-            label: 'Ada',
+            label: 'Cardano',
             data: ada_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Algo',
+            label: 'Algorand',
             data: algo_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Avax',
+            label: 'Avalanche',
             data: avax_cons,
             pointRadius: 0,
             borderWidth: 1
         },
 
         {
-            label: 'Dot',
+            label: 'Polkadot',
             data: dot_cons,
             pointRadius: 1,
             borderWidth: 1
         },
         {
-            label: 'Eth2',
+            label: 'Ethereum',
             data: eth2_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Matic',
+            label: 'Polygon',
             data: matic_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Sol',
+            label: 'Solana',
             data: sol_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Trx',
+            label: 'TRON',
             data: trx_cons,
             pointRadius: 0,
             borderWidth: 1
         },
         {
-            label: 'Xtz',
+            label: 'Tezos',
             data: xtz_cons,
             pointRadius: 0,
             borderWidth: 1
@@ -135,6 +135,19 @@ const config = {
         },
         stacked: false,
         plugins: {
+            legend: {
+                display: true,
+                position: 'top',
+                labels: {
+                    font: {
+                        size: 12
+                    },
+                    usePointStyle: true,
+                    // fontColor: "#000080",
+                    pointStyle: 'rect',
+                    // color: 'rgb(255, 99, 132)'
+                },
+            },
             title: {
                 display: true,
                 text: 'Proof of Stake carbon emissions in tons (T)'
