@@ -5,7 +5,7 @@
     </x-slot>
 
     <x-slot name="slot">
-
+        <section class="bg-green-100">
         <div class="container mx-auto px-4">
 
             <div class='grid-container-element py-7'>
@@ -29,11 +29,15 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center pt-5">
-                    <p>This awesome blog has many articles, click the button below to see them</p>
-                    <br>
-                    <a href="/blog" class="btn btn-outline-primary">Show Blog</a>
+                    <p>Green overall score</p>
+
                 </div>
             </div>
+
+            <div class="flex justify-center pb-8">
+            <x-table></x-table>
+            </div>
+
             <!-- TradingView Widget BEGIN -->
             <div class="tradingview-widget-container">
                 <div id="tradingview_01a62"></div>
@@ -62,5 +66,6 @@
         </div>
 
         </div>
+        </section>
     </x-slot>
 </x-layouts.app>
