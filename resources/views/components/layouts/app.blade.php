@@ -11,7 +11,6 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
@@ -38,6 +37,6 @@
 
            </div>
 
-
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>

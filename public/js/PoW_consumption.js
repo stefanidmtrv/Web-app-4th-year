@@ -4952,10 +4952,6 @@ const ctx = document.getElementById('myChart2');
 let labels2 = jsonfile.jsonarray.map(function (e) {
     return e.dates;
 });
-let results2 = labels2.map(date => new Date(date))
-results2.sort(function (a, b) {
-    return a - b
-});
 
 let bch = jsonfile.jsonarray.filter((e => e.ticker == "bch"));
 let bch_cons = bch.map(function (e) {
@@ -4967,12 +4963,15 @@ let bsv_cons = bsv.map(function (e) {
     return e.consumption;
 });
 
-let bsv_dates = bsv.map(function (e) {
+let mapDates = bsv.map(function (e) {
     return e.dates;
 });
+let options = {year: 'numeric', month: 'numeric', day: 'numeric' };
+let bsv_dates = mapDates.map(date => new Date(date).toLocaleDateString("en-US", options));
 bsv_dates.sort(function (a, b) {
     return b - a
 });
+// console.log(bsv_dates);
 let btc = jsonfile.jsonarray.filter((e => e.ticker == "btc"));
 let btc_cons = btc.map(function (e) {
     return e.consumption;

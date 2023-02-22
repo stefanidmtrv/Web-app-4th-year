@@ -26,7 +26,17 @@ Route::get('/emission', function () {
 Route::get('/altair', function () {
     return view('altair');
 });
+Route::get('/test', function () {
+    return view('test');
+});
 
+Route::get('/bitcoin', function () {
+    return view('bitcoin');
+});
+
+Route::get('/references', function () {
+    return view('references');
+});
 //Route::middleware('auth')->group(function () {
 //    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
 //    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

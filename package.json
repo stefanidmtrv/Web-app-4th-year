@@ -33,6 +33,7 @@
     "license": "ISC",
     "dependencies": {
         "chart.js": "^4.2.0",
-        "chartjs-plugin-zoom": "^2.0.0"
+        "chartjs-plugin-zoom": "^2.0.0",
+        "flowbite": "^1.6.3"
     }
 }

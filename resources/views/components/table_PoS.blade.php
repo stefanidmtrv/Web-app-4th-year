@@ -1,5 +1,5 @@
-<div class="relative overflow-x-auto w-1/3 shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left text-zinc-900 dark:text-zinc-900">
+{{--<div class="relative w-1/3 shadow-md sm:rounded-lg">--}}
+    <table class="table-auto w-full text-sm text-left text-zinc-900 dark:text-zinc-900 shadow-md sm:rounded-lg">
         <thead class="text-xs text-white uppercase bg-emerald-400 border-b border-emerald-600 dark:text-white">
         <tr>
             <th scope="col" class="px-6 py-3 bg-emerald-400">
@@ -16,92 +16,103 @@
         <tbody>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-               Bitcoin
+               Ethereum (PoS)
             </th>
             <td class="px-6 py-4">
-                106.38 TWh
+                2,804.34 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                57.56 Mt
+                937.83 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Ethereum
+                Cardano
             </th>
             <td class="px-6 py-4">
-                21.99 TWh
+                639.49 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                10.35 Mt
+                293.52 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Dogecoin
+                Polygon
             </th>
             <td class="px-6 py-4">
-                1.58 TWh
+                108.31 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.85 Mt
+                49.71 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-               Litecoin
+               Solana
             </th>
             <td class="px-6 py-4">
-                0.96 TWh
+                5,471.44 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.52 Mt
+                2,511.39 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Bitcoin Cash
+                Polkadot
             </th>
             <td class="px-6 py-4">
-                0.3 TWh
+                70.25 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.16 Mt
+                32.24 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Bitcoin SV
+                TRON
             </th>
             <td class="px-6 py-4">
-                0.12 TWh
+                168.1 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.06 Mt
+                77.16 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Dash
+                Avalanche
             </th>
             <td class="px-6 py-4">
-                0.05 TWh
+                549.36 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.03 Mt
+                252.15 T
             </td>
         </tr>
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                ZCash
+                Algorand
             </th>
             <td class="px-6 py-4">
-                0.28 TWh
+                4,160.83 MWh
             </td>
             <td class="px-6 py-4 bg-green-100">
-                0.15 Mt
+                1,909.82 T
+            </td>
+        </tr>
+        <tr class="bg-green-100 border-b border-green-400">
+            <th scope="row" class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
+                Tezos
+            </th>
+            <td class="px-6 py-4">
+                128.84 MWh
+            </td>
+            <td class="px-6 py-4 bg-green-100">
+                59.18 T
             </td>
         </tr>
         </tbody>
     </table>
-</div>
+{{--</div>--}}

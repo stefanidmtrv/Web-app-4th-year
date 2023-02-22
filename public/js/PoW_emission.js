@@ -4962,10 +4962,11 @@ let bsv = jsonfile.jsonarray.filter((e => e.ticker == "bsv"));
 let bsv_cons = bsv.map(function (e) {
     return e.yearly_emissions;
 });
-
-let bsv_dates = bsv.map(function (e) {
+let mapDates = bsv.map(function (e) {
     return e.dates;
 });
+let options = {year: 'numeric', month: 'numeric', day: 'numeric' };
+let bsv_dates = mapDates.map(date => new Date(date).toLocaleDateString("en-US", options));
 bsv_dates.sort(function (a, b) {
     return b - a
 });

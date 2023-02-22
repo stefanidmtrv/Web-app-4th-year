@@ -38,14 +38,16 @@ let matic = jsonfile.jsonarray.filter((e => e.ticker == "matic"));
 let matic_cons = matic.map(function (e) {
     return e.yearly_emissions;
 });
-let matic_dates = matic.map(function (e) {
+
+let mapDates2 = matic.map(function (e) {
     return e.dates;
 });
+let options2 = {year: 'numeric', month: 'numeric', day: 'numeric' };
+let matic_dates = mapDates2.map(date => new Date(date).toLocaleDateString("en-US", options2));
 
 matic_dates.sort(function (a, b) {
     return b - a
 });
-
 
 let sol = jsonfile.jsonarray.filter((e => e.ticker == "sol"));
 let sol_cons = sol.map(function (e) {
