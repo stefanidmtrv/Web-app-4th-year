@@ -109,15 +109,6 @@
                 <span style="font-size: 12px"><a
                         href="https://ccaf.io/cbeci/ghg/comparisons>https://ccaf.io/cbeci/ghg/comparisons">https://ccaf.io/cbeci/ghg/comparisons>https://ccaf.io/cbeci/ghg/comparisons </a></span>
                 <br>
-
-                <div>
-                    <img class="w-1/2 drop-shadow-xl" src="{{ asset('images/co2countries.PNG') }}">
-                    <strong>
-                        <span style="font-size: 12px">Source: </span>
-                    </strong>
-                    <span style="font-size: 12px"><a
-                            href="https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990">https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990</a></span>
-                </div>
             </div>
 
         </section>
