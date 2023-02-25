@@ -5,24 +5,41 @@
     </x-slot>
 
     <x-slot name="slot">
-        <section class="bg-green-100">
+        <div class="bg-green-100">
             <div class="container mx-auto px-4">
                 <div class="py-7">
-                <span class="">Scientists
-                    agree that <strong>climate change</strong> is real,
-                    <strong>human-caused</strong>, and requires a dramatic
-                    reduction of
-                    greenhouse gas emissions in order to minimize dangerous ecological and societal impact <sup>2</sup>.
-                    Emission reductions are necessary to stabilise climate and avoid potentially disastrous impacts on
-                    today’s
-                    young people, future generations, and nature <sup>3</sup>. Humans are considered <br> to be the main
-                    cause
-                    of Earth's atmospheric composition. The principal climate forcing, defined as an imposed
-                    change of planetary energy balance, is increasing carbon
-                    dioxide (CO<sub>2</sub>) <br> from fossil fuel emissions, much of which will
-                    remain in the atmosphere for millennia.</span>
+                    <ul class="list-disc">
+                        <li>Scientists
+                            agree that <strong>climate change</strong> is real,
+                            <strong>human-caused</strong>, and requires a dramatic
+                            reduction of
+                            greenhouse gas emissions in order to minimize dangerous ecological and societal impact <sup>2</sup>.
+                        </li>
+                        <li>There are
+                            <strong>2,400,000,000,000</strong>
+                            total cumulative tons of CO<sub>2</sub> emissions
+                            from 1850 to 2019. 2,400 gigatons of CO<sub>2</sub> were emitted by <strong>human
+                                activity</strong>.
+                            Around 950 gigatons went into the <strong>atmosphere</strong>.
+                            The rest has been absorbed by <strong>oceans and land</strong><sup>4</sup>.
+                        </li>
+                        <li>Emission reductions are necessary to stabilise climate and avoid potentially disastrous
+                            impacts on
+                            today’s
+                            young people, future generations, and nature <sup>3</sup>.
+                        </li>
+                        <li>
+                            <strong>Humans</strong> are considered to be the main
+                            cause
+                            of Earth's atmospheric composition.
+                        </li>
+                    </ul>
+                    {{--                <span class="">--}}
+                    {{--                      The principal climate forcing, defined as an imposed--}}
+                    {{--                    change of planetary energy balance, is increasing carbon--}}
+                    {{--                    dioxide (CO<sub>2</sub>) <br>. </span>--}}
                 </div>
-                <div>
+
                 <span class="">
                     "Increase of "greenhouse" gases such as CO<sub>2</sub>
                     has little effect on incoming sunlight but makes the atmosphere
@@ -34,8 +51,11 @@
                     Earth is now substantially out of energy balance, so the long-term
                     warming will continue" <sup>3</sup>
                 </span>
-                </div>
-                <hr>
+
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
+
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Carbon footprint of cryptocurrencies</h2>
+
                 <div class='grid-container-element py-7'>
                     <div class='grid-child-element green'>
                         <div style="width: 700px;">
@@ -54,8 +74,11 @@
                     </div>
                 </div>
 
-                <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Climate Impacts<sup>3</sup>:</h2>
-                <p class="mb-2">Climate impacts accompanying global warming of 2°C or more
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
+
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Climate Impacts<sup>3</sup>:</h2>
+
+                <p class="py-7">Climate impacts accompanying global warming of 2°C or more
                     would be highly deleterious. Already there are numerous
                     indications of substantial effects in response to warming of the
                     past few decades. That warming has brought global temperature
@@ -66,8 +89,8 @@
                     and far into the dangerous range.</p>
 
                 <x-climate_impacts_table></x-climate_impacts_table>
-
             </div>
+        </div>
         </section>
     </x-slot>
 </x-layouts.app>

@@ -20,6 +20,8 @@
                 <p>[3] Hansen J, Kharecha P, Sato M, Masson-Delmotte V, Ackerman F, Beerling DJ, et al. (2013) Assessing
                     “Dangerous Climate Change”: Required Reduction of Carbon Emissions to Protect Young People, Future
                     Generations and Nature. PLoS ONE 8(12): e81648. https://doi.org/10.1371/journal.pone.0081648</p>
+                <p>[4] Counts, The World. "Global CO2-emissions." 31 Jan. 2023, www.theworldcounts.com/challenges/
+                    climate-change/global-warming/global-co2-emissions.</p>
             </div>
 
         </section>

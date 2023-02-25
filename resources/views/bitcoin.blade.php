@@ -5,7 +5,7 @@
     </x-slot>
 
     <x-slot name="slot">
-        <section class="bg-emerald-300">
+        <section class="bg-emerald-100">
             <div class="container mx-auto">
                 <p style="text-align: center"> Country comparisons</p>
                 <div class="flex flex-wrap justify-center">
@@ -103,11 +103,27 @@
                     </div>
 
                 </div>
+
                 <strong>
                     <span style="font-size: 12px">Source: </span>
                 </strong>
                 <span style="font-size: 12px"><a
-                        href="https://ccaf.io/cbeci/ghg/comparisons>https://ccaf.io/cbeci/ghg/comparisons">https://ccaf.io/cbeci/ghg/comparisons>https://ccaf.io/cbeci/ghg/comparisons </a></span>
+                        href="https://ccaf.io/cbeci/ghg/comparisons>https://ccaf.io/cbeci/ghg/comparisons">
+                        https://ccaf.io/cbeci/ghg/comparisons></a>
+                </span>
+                <br>
+                <div class="py-7 w-1/3 mr-3 inline-flex items-center justify-center drop-shadow-2xl">
+                    <img
+                        src="{{ asset('images/bitcoin_tv.PNG') }}"/>
+                </div>
+                <br>
+                <strong>
+                    <span style="font-size: 12px">Source: </span>
+                </strong>
+                <span style="font-size: 12px"><a
+                        href="https://www.politico.eu/article/cryptocurrency-bitcoin-environment-impact-carbon-footprint/">
+                        https://www.politico.eu/article/cryptocurrency-bitcoin-environment-impact-carbon-footprint</a>
+                </span>
                 <br>
             </div>
 

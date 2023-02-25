@@ -9,7 +9,7 @@
         <section class="bg-green-100">
 
             <div class="container mx-auto px-4">
-
+                <h2 class="py-7 text-4xl font-extrabold text-gray-500 text-center">Energy consumption of cryptocurrencies</h2>
                 <div class='grid-container-element py-7'>
 
                     <div class='grid-child-element green'>
@@ -30,14 +30,14 @@
 
                 </div>
 
-                <hr>
+
                 <div class="grid-container-element py-7">
                     <div class="grid-child-element">
-                        <p class="text-center">Green overall score (PoW) </p>
+                        <p class="py-5 text-center">Green overall score (PoW) </p>
                         <x-table_PoW></x-table_PoW>
                     </div>
                     <div class="grid-child-element">
-                        <p class="text-center">Green overall score (PoS) </p>
+                        <p class="py-5 text-center">Green overall score (PoS) </p>
                         <x-table_PoS></x-table_PoS>
 {{--                        <img class="max-w-2xl" src="{{ asset('images/Capture.PNG') }}">--}}
                     </div>
