@@ -6,10 +6,11 @@
 
     <x-slot name="slot">
         <div class="bg-green-100">
+
             <div class="container mx-auto px-4">
                 <div class="py-7">
                     <ul class="list-disc">
-                        <li>Scientists
+                        <li> Scientists
                             agree that <strong>climate change</strong> is real,
                             <strong>human-caused</strong>, and requires a dramatic
                             reduction of
@@ -89,8 +90,192 @@
                     and far into the dangerous range.</p>
 
                 <x-climate_impacts_table></x-climate_impacts_table>
+
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
+
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Comparison</h2>
+
+                <div class="flex flex-wrap justify-center">
+
+                    <div class="p-4 max-w-sm">
+                        <div class="flex rounded-lg h-full bg-white p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-16 h-16 mr-3 inline-flex items-center justify-center">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/2560px-Flag_of_Belarus.svg.png"
+                                        alt="My Happy SVG"/>
+                                </div>
+                                <h2 class="text-black text-lg font-medium">Belarus</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base text-black">65.3 MtCO2e per year</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 max-w-sm">
+                        <div class="flex rounded-lg h-full bg-white p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-16 h-16 mr-3 inline-flex items-center justify-center">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Singapore_%28bordered%29.svg/1280px-Flag_of_Singapore_%28bordered%29.svg.png"
+                                        alt="My Happy SVG"/>
+                                </div>
+                                <h2 class="text-black text-lg font-medium">Singapore</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base text-black">67.3
+                                    MtCO2e per year</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-4 max-w-sm">
+                        <div class="flex rounded-lg h-full bg-white p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-16 h-16 mr-3 inline-flex items-center justify-center">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bitcoin-clean.svg/2048px-Bitcoin-clean.svg.png"
+                                        alt="My Happy SVG"/>
+                                </div>
+                                <h2 class="text-black text-lg font-medium">Bitcoin</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base text-black">63.5
+                                    MtCO2e per year</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 max-w-sm">
+                        <div class="flex rounded-lg h-full bg-white p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-16 h-16 mr-3 inline-flex items-center justify-center">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/2560px-Flag_of_Papua_New_Guinea.svg.png"
+                                        alt="My Happy SVG"/>
+                                </div>
+                                <h2 class="text-black text-lg font-medium">Papua New Guinea</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base text-black">63.5
+                                    MtCO2e per year</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 max-w-sm">
+                        <div class="flex rounded-lg h-full bg-white p-8 flex-col">
+                            <div class="flex items-center mb-3">
+                                <div
+                                    class="w-16 h-16 mr-3 inline-flex items-center justify-center">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/2560px-Flag_of_Mongolia.svg.png"
+                                    />
+                                </div>
+                                <h2 class="text-black text-lg font-medium">Mongolia</h2>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base text-black">59.1
+                                    MtCO2e per year</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <strong>
+                        <span style="font-size: 12px">Source: </span>
+                    </strong>
+                    <span style="font-size: 12px"><a
+                            href="https://ccaf.io/cbeci/ghg/comparisons">
+                        https://ccaf.io/cbeci/ghg/comparisons></a>
+                </span>
+                </div>
+<section>
+                    <div class="py-7 flex flex-row gap-4">
+
+                            <div class="">
+                                <img class="drop-shadow-2xl"
+                                    src="{{ asset('images/bitcoin_tv.PNG') }}"/>
+                                <strong>
+                                    <span style="font-size: 12px">Source: </span>
+                                </strong>
+                                <span style="font-size: 12px"><a
+                                        href="https://www.politico.eu/article/cryptocurrency-bitcoin-environment-impact-carbon-footprint/">
+                                    https://www.politico.eu/article/cryptocurrency-bitcoin-environment-impact-carbon-footprint</a>
+                            </span>
+                            </div>
+
+
+                            <div class="">
+                            <img class="drop-shadow-2xl" src="{{ asset('images/co2countries.PNG') }}">
+                                <strong>
+                                    <span style="font-size: 12px">Source: </span>
+                                </strong>
+                                <span style="font-size: 12px"><a
+                                        href="https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990">
+                                        https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990</a></span>
+                            </div>
+
+
+                    </div>
+
+                </section>
+
+
+
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
+
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Price</h2>
+                <section class="hero container max-w-screen-lg mx-auto pb-10 flex justify-center">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="py-7 tradingview-widget-container">
+
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright"><a
+                                href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener"
+                                target="_blank"><span class="blue-text">Crypto markets</span></a> by TradingView
+                        </div>
+                        <script type="text/javascript"
+                                src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+                            {
+                                "width"
+                            :
+                                "1000",
+                                    "height"
+                            :
+                                "490",
+                                    "defaultColumn"
+                            :
+                                "overview",
+                                    "screener_type"
+                            :
+                                "crypto_mkt",
+                                    "displayCurrency"
+                            :
+                                "USD",
+                                    "colorTheme"
+                            :
+                                "light",
+                                    "locale"
+                            :
+                                "en"
+                            }
+                        </script>
+                    </div>
+                    <!-- TradingView Widget END -->
+                </section>
             </div>
         </div>
+
         </section>
     </x-slot>
 </x-layouts.app>

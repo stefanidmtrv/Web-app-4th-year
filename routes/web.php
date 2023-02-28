@@ -30,10 +30,6 @@ Route::get('/test', function () {
     return view('test');
 });
 
-Route::get('/bitcoin', function () {
-    return view('bitcoin');
-});
-
 Route::get('/references', function () {
     return view('references');
 });

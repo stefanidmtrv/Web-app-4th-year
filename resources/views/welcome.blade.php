@@ -12,15 +12,15 @@
                 <section>
 
                     <h1 class="pt-10 pl-6 mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Eco-friendly cryptocurrencies </span>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Cryptocurrency mining and climate change</span>
                     </h1>
                     <p class="text-justify pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
                         Cryptocurrency
-                        mining requires solving resource-intensive tasks (Proof-of-Work, Proof-of-Stake etc.). <br>
-                        Each of them requires a huge amount of processing power. Energy consumption itself does not have<br>
+                        mining requires solving resource-intensive tasks (Proof-of-Work, Proof-of-Stake etc.).
+                        Each of them requires a huge amount of processing power. Energy consumption itself does not have
                         a
                         direct impact on the environment. However,
-                        the carbon intensity used for electricity causes harm<br> to the environment <sup>1</sup> and as a
+                        the carbon intensity used for electricity causes harm to the environment <sup>1</sup> and as a
                         consequence the global temperature rises, which leads to global warming.
 
                     </p>
@@ -86,7 +86,44 @@
                                 </div>
                             </a>
                         </div>
+
                     </div>
+
+                    <p>
+                        Definitions
+                        <br>
+
+                        “Proof of work” and “proof of stake” are the two major consensus mechanisms cryptocurrencies
+                        use to verify new transactions,
+                        add them to the blockchain, and create new tokens.
+                        Proof of work, first pioneered by Bitcoin, uses mining to achieve those goals.
+                        Proof of stake — which is employed by Cardano, the ETH2 blockchain, and others
+                        — uses staking to achieve the same things.
+
+                        <strong>
+                            <span style="font-size: 12px">Source: </span>
+                        </strong>
+                        <span style="font-size: 12px"><a
+                                href="https://www.coinbase.com/learn/crypto-basics/what-is-proof-of-work-or-proof-of-stake">
+                        https://www.coinbase.com/learn/crypto-basics/what-is-proof-of-work-or-proof-of-stake</a>
+                </span>
+                        <br>
+                        In PoW miners use specialised hardware to solve
+                        the complex mathematical puzzle of mining the crypto-asset, validate transactions and secure
+                        the expanding network. This procedure is computationally expensive and translates directly
+                        into high energy consumption..
+
+                        The significant energy consumption weakness of PoW can be addressed by another blockchain
+                        consensus mechanism, namely proof-of-stake (PoS). The main idea behind PoS is that to become a
+                        validator (or “miner”) of transactions, network participants must lock up (or “stake”) a certain
+                        amount of the underlying crypto-asset. These locked up crypto-assets are used as a form of
+                        collateral for the security of the network. Hence, the decisive factor that determines whether a
+                        validator can successfully mine a block is not computing power, but the amount of staked
+                        crypto-assets. Crypto-assets built on PoS blockchains thus rely on miners pledging crypto-asset
+                        collateral instead of computing power, leading to substantially lower energy consumption.<sup></sup>
+                    </p>
+
+
             </div>
         </section>
         </section>

@@ -9,7 +9,8 @@
         <section class="bg-green-100">
 
             <div class="container mx-auto px-4">
-                <h2 class="py-7 text-4xl font-extrabold text-gray-500 text-center">Energy consumption of cryptocurrencies</h2>
+                <h2 class="py-7 text-4xl font-extrabold text-gray-500 text-center">Energy Consumption of
+                    Cryptocurrencies</h2>
                 <div class='grid-container-element py-7'>
 
                     <div class='grid-child-element green'>
@@ -29,27 +30,22 @@
                     </div>
 
                 </div>
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
 
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Green Overall Score</h2>
 
                 <div class="grid-container-element py-7">
+
                     <div class="grid-child-element">
-                        <p class="py-5 text-center">Green overall score (PoW) </p>
+
                         <x-table_PoW></x-table_PoW>
                     </div>
                     <div class="grid-child-element">
-                        <p class="py-5 text-center">Green overall score (PoS) </p>
+
                         <x-table_PoS></x-table_PoS>
-{{--                        <img class="max-w-2xl" src="{{ asset('images/Capture.PNG') }}">--}}
+
                     </div>
-                </div>
-                <div>
-                    <h1>Global Historical Emissions</h1>
-                    <img class="w-1/2 drop-shadow-xl" src="{{ asset('images/co2countries.PNG') }}">
-                    <strong>
-                        <span style="font-size: 12px">Source: </span>
-                    </strong>
-                    <span style="font-size: 12px"><a
-                            href="https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990">https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990</a></span>
+
                 </div>
 
             </div>

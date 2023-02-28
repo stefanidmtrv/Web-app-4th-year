@@ -22,6 +22,11 @@
                     Generations and Nature. PLoS ONE 8(12): e81648. https://doi.org/10.1371/journal.pone.0081648</p>
                 <p>[4] Counts, The World. "Global CO2-emissions." 31 Jan. 2023, www.theworldcounts.com/challenges/
                     climate-change/global-warming/global-co2-emissions.</p>
+                <p>
+                    [5] Gschossmann, Isabella, et al. "Mining the environment – is climate risk priced into
+                    crypto-assets?" European Central Bank, no. 18, 11 July 2022,
+                    www.ecb.europa.eu/pub/financial-stability/macroprudential-bulletin/html/ecb.mpbu202207_3~d9614ea8e6.en.html.
+                </p>
             </div>
 
         </section>
