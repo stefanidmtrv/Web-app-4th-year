@@ -15,6 +15,43 @@
         <tr class="bg-green-100 border-b border-green-400">
             <th scope="row"
                 class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
+                Human Health
+            </th>
+            <td class="px-6 py-4">
+                Impacts of climate change cause widespread harm to human
+                health, with <strong style="color: crimson">children often suffering the most</strong>. Food shortages,
+                polluted air, contaminated or scarce supplies of water, an
+                expanding area of vectors causing <strong style="color: crimson">infectious diseases</strong>, and more
+                intensely allergenic plants are among the harmful impacts.
+                More extreme weather events cause physical and psychological
+                harm. World health experts have concluded that climate change already contributes to the global
+                burden of <strong style="color: crimson">disease and premature death</strong>.
+            </td>
+
+        </tr>
+        <tr class="bg-green-100 border-b border-green-400">
+            <th scope="row"
+                class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
+                Climate Extremes
+            </th>
+            <td class="px-6 py-4">
+                A warmer
+                atmosphere holds more moisture, so precipitation can be heavier
+                and cause more extreme <strong style="color: crimson">flooding</strong>. Higher temperatures, on the
+                other hand, increase evaporation and can intensify <strong style="color: crimson">droughts</strong> when
+                they occur, as can expansion of the subtropics. <strong style="color: crimson">Heat
+                    waves</strong> lasting for weeks have a <strong style="color: crimson">devastating impact on human health</strong>.
+                the European heat wave of summer 2003 caused over <strong style="color: crimson">70,000 excess
+                    deaths</strong>. This heat record for Europe was surpassed already in
+                2010. The number of extreme heat waves has increased
+                several-fold due to global warming and will increase
+                further if temperatures continue to rise.
+            </td>
+
+        </tr>
+        <tr class="bg-green-100 border-b border-green-400">
+            <th scope="row"
+                class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
                 Sea Level
             </th>
             <td class="px-6 py-4">
@@ -79,43 +116,6 @@
                 Acidification arises as the ocean absorbs <strong style="color: crimson">CO<sub>2</sub></strong>, producing
                 <strong style="color: crimson">carbonic acid</strong> thus making the ocean more <strong style="color: crimson">corrosive</strong> to the
                 calcium carbonate shells (exoskeletons) of many <strong style="color: crimson">marine organisms</strong>.
-            </td>
-
-        </tr>
-        <tr class="bg-green-100 border-b border-green-400">
-            <th scope="row"
-                class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Climate Extremes
-            </th>
-            <td class="px-6 py-4">
-                A warmer
-                atmosphere holds more moisture, so precipitation can be heavier
-                and cause more extreme <strong style="color: crimson">flooding</strong>. Higher temperatures, on the
-                other hand, increase evaporation and can intensify <strong style="color: crimson">droughts</strong> when
-                they occur, as can expansion of the subtropics. <strong style="color: crimson">Heat
-                    waves</strong> lasting for weeks have a <strong style="color: crimson">devastating impact on human health</strong>.
-                the European heat wave of summer 2003 caused over <strong style="color: crimson">70,000 excess
-                deaths</strong>. This heat record for Europe was surpassed already in
-                2010. The number of extreme heat waves has increased
-                several-fold due to global warming and will increase
-                further if temperatures continue to rise.
-            </td>
-
-        </tr>
-        <tr class="bg-green-100 border-b border-green-400">
-            <th scope="row"
-                class="px-6 py-4 font-medium bg-gray-100 text-zinc-900 whitespace-nowrap dark:text-zinc-900">
-                Human Health
-            </th>
-            <td class="px-6 py-4">
-                Impacts of climate change cause widespread harm to human
-                health, with <strong style="color: crimson">children often suffering the most</strong>. Food shortages,
-                polluted air, contaminated or scarce supplies of water, an
-                expanding area of vectors causing <strong style="color: crimson">infectious diseases</strong>, and more
-                intensely allergenic plants are among the harmful impacts.
-                More extreme weather events cause physical and psychological
-                harm. World health experts have concluded that climate change already contributes to the global
-                burden of <strong style="color: crimson">disease and premature death</strong>.
             </td>
 
         </tr>
