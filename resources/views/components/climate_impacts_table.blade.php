@@ -1,5 +1,5 @@
 <div class="flex">
-    <table class="w-3/4 text-sm text-left text-zinc-900 dark:text-zinc-900 shadow-md sm:rounded-lg">
+    <table class="mx-auto block text-sm text-left text-zinc-900 dark:text-zinc-900 shadow-md sm:rounded-lg">
         <thead class="text-xs text-white uppercase bg-emerald-400 border-b border-emerald-600 dark:text-white">
         <tr>
             <th scope="col" class="px-6 py-3 bg-emerald-400">

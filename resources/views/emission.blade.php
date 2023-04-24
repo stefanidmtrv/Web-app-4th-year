@@ -93,7 +93,7 @@
 
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
 
-                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Comparison</h2>
+                <h2 class="text-4xl font-extrabold text-gray-500 text-center">Countries Comparison</h2>
 
                 <div class="flex flex-wrap justify-center">
 

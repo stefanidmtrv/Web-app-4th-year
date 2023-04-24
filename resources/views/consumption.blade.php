@@ -33,13 +33,25 @@
 
                 <h2 class="text-4xl font-extrabold text-gray-500 text-center">Green Overall Score</h2>
 
-                <div class="grid-container-element py-7">
+{{--                <div class="grid-container-element py-7">--}}
 
-                    <div class="grid-child-element">
+{{--                    <div class="grid-child-element">--}}
+
+{{--                        <x-table_PoW></x-table_PoW>--}}
+{{--                    </div>--}}
+{{--                    <div class="grid-child-element">--}}
+
+{{--                        <x-table_PoS></x-table_PoS>--}}
+
+{{--                    </div>--}}
+
+{{--                </div>--}}
+
+                <div class="flex justify-center">
+
+                    <div class="grid grid-cols-2 gap-4 py-7">
 
                         <x-table_PoW></x-table_PoW>
-                    </div>
-                    <div class="grid-child-element">
 
                         <x-table_PoS></x-table_PoS>
 

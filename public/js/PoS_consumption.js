@@ -2356,6 +2356,7 @@ const config = {
     type: 'line',
     data: myData,
     options: {
+        maintainAspectRatio: true,
         responsive: true,
         interaction: {
             mode: 'index',

@@ -5059,6 +5059,7 @@ new Chart(ctx, {
         ]
     },
     options: {
+        maintainAspectRatio: true,
         responsive: true,
         interaction: {
             mode: 'index',
