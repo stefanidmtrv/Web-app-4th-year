@@ -3,10 +3,22 @@
 }
 .grid-container-element {
 display: grid;
+    justify-items: center; /* centers items horizontally */
+    align-items: center;
 grid-template-columns: 1fr 1fr;
 grid-gap: 20px;
 width: 50%;
 }
 .grid-child-element {
 margin: 10px;
+}
+.grid-container {
+    display: grid;
+    justify-items: center; /* centers items horizontally */
+    align-items: center; /* centers items vertically */
+}
+
+.child {
+    border: 1px solid black;
+    padding: 10px;
 }

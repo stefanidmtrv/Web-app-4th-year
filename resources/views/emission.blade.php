@@ -8,40 +8,9 @@
         <div class="bg-green-100">
 
             <div class="container mx-auto px-4">
-                <div class="py-7">
-                    <ul class="list-disc">
-                        <li> Scientists
-                            agree that <strong>climate change</strong> is real,
-                            <strong>human-caused</strong>, and requires a dramatic
-                            reduction of
-                            greenhouse gas emissions in order to minimize dangerous ecological and societal impact <sup>2</sup>.
-                        </li>
-                        <li>There are
-                            <strong>2,400,000,000,000</strong>
-                            total cumulative tons of CO<sub>2</sub> emissions
-                            from 1850 to 2019. 2,400 gigatons of CO<sub>2</sub> were emitted by <strong>human
-                                activity</strong>.
-                            Around 950 gigatons went into the <strong>atmosphere</strong>.
-                            The rest has been absorbed by <strong>oceans and land</strong><sup>4</sup>.
-                        </li>
-                        <li>Emission reductions are necessary to stabilise climate and avoid potentially disastrous
-                            impacts on
-                            today’s
-                            young people, future generations, and nature <sup>3</sup>.
-                        </li>
-                        <li>
-                            <strong>Humans</strong> are considered to be the main
-                            cause
-                            of Earth's atmospheric composition.
-                        </li>
-                    </ul>
-                    {{--                <span class="">--}}
-                    {{--                      The principal climate forcing, defined as an imposed--}}
-                    {{--                    change of planetary energy balance, is increasing carbon--}}
-                    {{--                    dioxide (CO<sub>2</sub>) <br>. </span>--}}
-                </div>
 
-                <span class="">
+
+                <span class="py-7 font-serif text-lg text-gray-600">
                     "Increase of "greenhouse" gases such as CO<sub>2</sub>
                     has little effect on incoming sunlight but makes the atmosphere
                     more opaque at infrared wavelengths, causing infrared (heat)
@@ -52,7 +21,38 @@
                     Earth is now substantially out of energy balance, so the long-term
                     warming will continue" <sup>3</sup>.
                 </span>
-
+                <div class="py-7">
+                    <ul class="list-disc">
+                        <li class="font-serif text-lg text-gray-600"> Scientists
+                            agree that <strong>climate change</strong> is real,
+                            <strong>human-caused</strong>, and requires a dramatic
+                            reduction of
+                            greenhouse gas emissions in order to minimize dangerous ecological and societal impact <sup>2</sup>.
+                        </li>
+                        <li class="font-serif text-lg text-gray-600">There are
+                            <strong>2,400,000,000,000</strong>
+                            total cumulative tons of CO<sub>2</sub> emissions
+                            from 1850 to 2019. 2,400 gigatons of CO<sub>2</sub> were emitted by <strong>human
+                                activity</strong>.
+                            Around 950 gigatons went into the <strong>atmosphere</strong>.
+                            The rest has been absorbed by <strong>oceans and land</strong><sup>4</sup>.
+                        </li>
+                        <li class="font-serif text-lg text-gray-600">Emission reductions are necessary to stabilise climate and avoid potentially disastrous
+                            impacts on
+                            today’s
+                            young people, future generations, and nature <sup>3</sup>.
+                        </li>
+                        <li class="font-serif text-lg text-gray-600">
+                            <strong>Humans</strong> are considered to be the main
+                            cause
+                            of Earth's atmospheric composition.
+                        </li>
+                    </ul>
+                    {{--                <span class="">--}}
+                    {{--                      The principal climate forcing, defined as an imposed--}}
+                    {{--                    change of planetary energy balance, is increasing carbon--}}
+                    {{--                    dioxide (CO<sub>2</sub>) <br>. </span>--}}
+                </div>
                 <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 bg-green-300	">
 
                 <h2 class="text-4xl font-extrabold text-gray-500 text-center">Carbon Footprint</h2>
@@ -79,7 +79,7 @@
 
                 <h2 class="text-4xl font-extrabold text-gray-500 text-center">Climate Impacts<sup>3</sup>:</h2>
 
-                <p class="py-7">Climate impacts accompanying global warming of 2°C or more
+                <p class="py-7 font-serif text-lg text-gray-600">Climate impacts accompanying global warming of 2°C or more
                     would be highly deleterious. Already there are numerous
                     indications of substantial effects in response to warming of the
                     past few decades. That warming has brought global temperature
@@ -213,8 +213,6 @@
                                     https://www.politico.eu/article/cryptocurrency-bitcoin-environment-impact-carbon-footprint</a>
                             </span>
                             </div>
-
-
                             <div class="">
                             <img class="drop-shadow-2xl" src="{{ asset('images/co2countries.PNG') }}">
                                 <strong>
@@ -224,19 +222,10 @@
                                         href="https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990">
                                         https://www.climatewatchdata.org/ghg-emissions?end_year=2019&start_year=1990</a></span>
                             </div>
-
-
                     </div>
-
                 </section>
-
-
-
-
-
             </div>
         </div>
-
         </section>
     </x-slot>
 </x-layouts.app>

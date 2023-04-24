@@ -16,7 +16,7 @@
         {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
 
         <script src="{{ mix('js/app.js') }}"></script>
-        <title>Cryptocyrrencies</title>
+        <title>Cryptocurrencies</title>
     </head>
 <body>
 

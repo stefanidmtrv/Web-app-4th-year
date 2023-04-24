@@ -12,9 +12,10 @@
                 <section>
 
                     <h1 class="pt-10 pl-6 mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Cryptocurrency mining and climate change</span>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+                            Cryptocurrency mining and climate change</span>
                     </h1>
-                    <p class="text-justify pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
+                    <p class="text-justify pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600 font-serif text-gray-600">
                         Cryptocurrency
                         mining requires solving resource-intensive tasks (Proof-of-Work, Proof-of-Stake etc.).
                         Each of them requires a huge amount of processing power. Energy consumption itself does not have
@@ -39,7 +40,7 @@
                                          alt="Sunset in the mountains">
                                     <div class="px-6 py-4">
                                         <div class="font-bold text-xl mb-2"> Carbon emissions</div>
-                                        <p class="text-gray-700 text-base">
+                                        <p class="text-gray-700 text-base ">
                                             Human emissions of carbon dioxide and other greenhouse gases are a primary
                                             driver of climate change. Cryptocurrency mining requires a lot of energy
                                             which means a significant amount of carbon emissions is produced. See more.
@@ -75,15 +76,16 @@
                         <p class="text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
 
                         <h2 class="text-4xl font-extrabold text-gray-500 text-left">Definitions</h2>
-                            <br>
+                        <br>
                         <ul class="list-disc">
-                            <p class="text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
-                            “Proof-of-work” and “Proof-of-Stake” are the two main consensus mechanisms cryptocurrencies
-                            use to verify new transactions,
-                            add them to the blockchain, and create new tokens.
-                            Proof of work, first pioneered by Bitcoin, uses mining to achieve those goals.
-                            Proof of stake — which is employed by Cardano, the ETH2 blockchain, and others
-                            — uses staking to achieve the same things.
+                            <p class="font-serif text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
+                                “Proof-of-work” and “Proof-of-Stake” are the two main consensus mechanisms
+                                cryptocurrencies
+                                use to verify new transactions,
+                                add them to the blockchain, and create new tokens.
+                                Proof of work, first pioneered by Bitcoin, uses mining to achieve those goals.
+                                Proof of stake — which is employed by Cardano, the ETH2 blockchain, and others
+                                — uses staking to achieve the same things.
                                 <br>
                                 <strong>
                                     <span style="font-size: 12px">Source: </span>
@@ -97,45 +99,51 @@
 
                             <br>
                             <li>
-                                <p class="text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
+                                <p class="font-serif text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
 
-                                <strong>Proof-of-Work</strong>
-                                In PoW miners use specialised hardware to solve
-                                the complex mathematical puzzle of mining the crypto-asset, validate transactions and
-                                secure
-                                the expanding network. This procedure is computationally expensive and translates
-                                directly
+                                    <strong>Proof-of-Work</strong>
+                                    In PoW miners use specialised hardware to solve
+                                    the complex mathematical puzzle of mining the crypto-asset, validate transactions
+                                    and
+                                    secure
+                                    the expanding network. This procedure is computationally expensive and translates
+                                    directly
                                     into <strong>high energy consumption</strong>.
                                 </p>
                             </li>
                             <br>
 
                             <li>
-                                <p class="text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
+                                <p class="font-serif text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
 
-                                <strong>Proof-of-Stake</strong>
-                                The significant energy consumption weakness of PoW can be addressed by another
-                                blockchain
-                                consensus mechanism, namely Proof-of-Stake (PoS). The main idea behind PoS is that to
-                                become
-                                a
-                                validator (or “miner”) of transactions, network participants must lock up (or “stake”) a
-                                certain
-                                amount of the underlying crypto-asset. These locked up crypto-assets are used as a form
-                                of
-                                collateral for the security of the network. Hence, the decisive factor that determines
-                                whether a
-                                validator can successfully mine a block is not computing power, but the amount of staked
-                                crypto-assets. Crypto-assets built on PoS blockchains thus rely on miners pledging
-                                crypto-asset
-                                collateral instead of computing power, leading to substantially <strong>lower energy
+                                    <strong>Proof-of-Stake</strong>
+                                    The significant energy consumption weakness of PoW can be addressed by another
+                                    blockchain
+                                    consensus mechanism, namely Proof-of-Stake (PoS). The main idea behind PoS is that
+                                    to
+                                    become
+                                    a
+                                    validator (or “miner”) of transactions, network participants must lock up (or
+                                    “stake”) a
+                                    certain
+                                    amount of the underlying crypto-asset. These locked up crypto-assets are used as a
+                                    form
+                                    of
+                                    collateral for the security of the network. Hence, the decisive factor that
+                                    determines
+                                    whether a
+                                    validator can successfully mine a block is not computing power, but the amount of
+                                    staked
+                                    crypto-assets. Crypto-assets built on PoS blockchains thus rely on miners pledging
+                                    crypto-asset
+                                    collateral instead of computing power, leading to substantially <strong>lower energy
                                         consumption</strong>.<sup>5</sup>
                                 </p>
                             </li>
 
                         </ul>
                         </p>
-                    <br>
+                        <br>
                     </div>
 
             </div>
