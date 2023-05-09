@@ -34,39 +34,18 @@
                         <div class='p-4 max-w-sm'>
                             <a href="emission">
                                 <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
-
-                                    <img class="w-full"
-                                         src="https://airlines.iata.org/sites/default/files/web_cleaning-up-carbon-footprint_credit_TarikVision_shutterstock_2043877847.png"
-                                         alt="Sunset in the mountains">
-                                    <div class="px-6 py-4">
-                                        <div class="font-bold text-xl mb-2"> Carbon emissions</div>
-                                        <p class="text-gray-700 text-base ">
-                                            Human emissions of carbon dioxide and other greenhouse gases are a primary
-                                            driver of climate change. Cryptocurrency mining requires a lot of energy
-                                            which means a significant amount of carbon emissions is produced. See more.
-                                        </p>
-                                    </div>
-
+                                    <x-card :url="'https://airlines.iata.org/sites/default/files/web_cleaning-up-carbon-footprint_credit_TarikVision_shutterstock_2043877847.png'"
+                                            :header="'Carbon emissions'"
+                                            :text="'Human emissions of carbon dioxide and other greenhouse gases are a primary driver of climate change. Cryptocurrency mining requires a lot of energy which means a significant amount of carbon emissions is produced. See more.'"/>
                                 </div>
                             </a>
                         </div>
 
-                        <div class='p-4 max-w-sm'>
+                        <div class='p-4 max-w-sm '>
                             <a href="consumption">
-                                <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-50">
-                                    <img class="w-full"
-                                         src="https://internetofbusiness.com/wp-content/uploads/2018/07/IoT-in-energy-1280x720.jpg"
-                                         alt="Sunset in the mountains">
-                                    <div class="px-6 py-4">
-                                        <div class="font-bold text-xl mb-2"> Energy consumption</div>
-                                        <p class="text-gray-700 text-base">
-                                            Human activity, especially the consumption of energy, has been considered
-                                            one of the main factors contributing to the changing climate<sup>2</sup>.
-                                            See more.
-                                        </p>
-                                    </div>
-
-                                </div>
+                                <x-card :url="'https://internetofbusiness.com/wp-content/uploads/2018/07/IoT-in-energy-1280x720.jpg'"
+                                        :header="'Energy consumption'"
+                                        :text="'Human activity, especially the consumption of energy, has been considered one of the main factors contributing to the changing². See more.'"/>
                             </a>
                         </div>
 
@@ -75,7 +54,7 @@
                     <div>
                         <p class="text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
 
-                        <h2 class="text-4xl font-extrabold text-gray-500 text-left">Definitions</h2>
+                        <h2 class="text-4xl font-extrabold text-gray-500 text-left px-7">Definitions</h2>
                         <br>
                         <ul class="list-disc">
                             <p class="font-serif text-left pl-6 text-lg font-sans text-zinc-600 lg:text-xl dark:text-zinc-600">
